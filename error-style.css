@@ -1,0 +1,39 @@
+.body{
+    margin: 7em 10%;
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 4em;
+}
+
+.error{
+    font-size: 25px;
+}
+.img{
+    margin-top: 5px;
+}
+.errorimg{
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.button{
+    margin: 15px 0px;
+    padding: 5px 16px;
+    border: rgb(189, 189, 189) 2.5px solid;
+    border-radius: 10em;
+    background-color: rgb(221, 221, 221);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.button:hover{
+    border-color: rgb(165, 165, 165);
+    background-color: rgb(197, 197, 197);
+}
+
+.errorbtn{
+    background-color: #fff;
+    border: 0;
+}

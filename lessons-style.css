@@ -1,0 +1,180 @@
+th{
+    padding: 3px 0;
+    border-bottom: solid 1px #acacac;
+    background-color: #ddd;
+    color: #737373;
+    text-align: center;
+    font-size: 11px;
+}
+
+table{
+    border-spacing: 0
+}
+
+.body{
+    margin: 3em 5%;
+    text-align: center;
+    background-color: #fff;
+    padding: 100px;
+    border-radius: 3em;
+
+    max-width: 699px;
+
+}
+
+.name-day{
+    padding: 3px 0;
+    background-color: #5b9b00;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.table-lesson{
+    float: left;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    font-size: 12px;
+    margin-bottom: 75px;
+}
+
+.right{
+    float: right;
+}
+
+.lesson-number, .lesson-name, .lesson-time{
+    height: 30px;
+    border-right: solid 1px #acacac;
+    border-bottom: solid 1px #acacac;
+}
+
+.last{
+    border-bottom: 0;
+}
+
+.no-right{
+    border-right: 0;
+}
+
+.nomer-th{
+    width: 25px;
+}
+
+.lesson-th{
+    width: 150px; 
+}
+
+.time-th{
+    width: 100px;
+}
+
+.last-tb{
+    margin-bottom: 0;
+}
+
+@media(max-width: 999px){
+    .body{
+        padding: 50px;
+        border-radius: 3em;
+        min-width: 590px;
+        max-width: 590px;
+    }
+
+    .right{
+        margin-left: 100px;
+    }
+    .nomer-th{
+        width: 25px;
+    }
+    
+    .lesson-th{
+        width: 130px; 
+    }
+    
+    .time-th{
+        width: 90px;
+    }
+}
+
+@media(max-width: 771px){
+    .body{
+        padding: 50px;
+        border-radius: 3em;
+        min-width: 510px;
+        max-width: 510px;
+    }
+
+    .right{
+        margin-left: 60px;
+    }
+    .nomer-th{
+        width: 20px;
+    }
+    
+    .lesson-th{
+        width: 130px; 
+    }
+    
+    .time-th{
+        width: 75px;
+    }
+}
+
+@media(max-width: 674px){
+    .body{
+        margin: 1.5em 3%;
+        padding: 25px;
+        border-radius: 1em;
+        min-width: 480px;
+        max-width: 480px;
+    }
+
+    .right{
+        margin-left: 30px;
+    }
+    .nomer-th{
+        width: 20px;
+    }
+    
+    .lesson-th{
+        width: 130px; 
+    }
+    
+    .time-th{
+        width: 75px;
+    }
+}
+
+@media(max-width: 559px){
+    .body{
+        margin: 1.5em 5%;
+        padding: 50px;
+        border-radius: 1em;
+        min-width: 245px;
+        max-width: 245px;
+    }
+
+    .right{
+        margin-left: 0;
+    }
+    .nomer-th{
+        width: 25px;
+    }
+    
+    .lesson-th{
+        width: 130px; 
+    }
+    
+    .time-th{
+        width: 90px;
+    }
+
+    .mediafri{
+        margin-bottom: 75px;
+    }
+}
